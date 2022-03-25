@@ -1,0 +1,22 @@
+[debug] > Exec({file:/C:/Users/jkhol/Desktop/IdeaProjects/lab1-2/}lab1-2/ testOnly lab2.FuncSetSpec, None, None)
+[debug] Evaluating tasks: Test / testOnly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] FuncSetSpec:
+[info] - contains
+[info] - singletonSet
+[info] - union
+[info] - intersect
+[info] - diff
+[info] - filter
+[info] - forall
+[info] - exists
+[info] - map
+[info] Run completed in 298 milliseconds.
+[info] Total number of tests run: 9
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 9, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 1 s, completed Mar 25, 2022 12:12:48 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

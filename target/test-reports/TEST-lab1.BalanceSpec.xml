@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="YuliaKholodetska" name="lab1.BalanceSpec" tests="3" errors="0" failures="1" skipped="0" time="0.164" timestamp="2022-03-25T13:15:25">
+          <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="sun.boot.library.path" value="C:\Users\jkhol\.jdks\corretto-1.8.0_252\jre\bin"/><property name="java.vm.version" value="25.252-b09"/><property name="java.vm.vendor" value="Amazon.com Inc."/><property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/><property name="path.separator" value=";"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="user.script" value=""/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value=""/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="C:\Users\jkhol\Desktop\IdeaProjects\lab1-2"/><property name="java.runtime.version" value="1.8.0_252-b09"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="idea.managed" value="true"/><property name="java.endorsed.dirs" value="C:\Users\jkhol\.jdks\corretto-1.8.0_252\jre\lib\endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="C:\Users\jkhol\AppData\Local\Temp\"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="log4j.ignoreTCL" value="true"/><property name="user.variant" value=""/><property name="os.name" value="Windows 10"/><property name="sbt.log.noformat" value="true"/><property name="sun.jnu.encoding" value="Cp1251"/><property name="jnidispatch.path" value="C:\Users\jkhol\AppData\Local\Temp\jna-101184356\jna4075411276112166089.dll"/><property name="java.library.path" value="C:\Users\jkhol\.jdks\corretto-1.8.0_252\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Redis\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\cygwin64\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-8u275-b01\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\CMake\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\sbt\bin;C:\Users\jkhol\anaconda3;C:\Users\jkhol\anaconda3\Library\mingw-w64\bin;C:\Users\jkhol\anaconda3\Library\usr\bin;C:\Users\jkhol\anaconda3\Library\bin;C:\Users\jkhol\anaconda3\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\jkhol\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\jkhol\AppData\Local\Programs\Python\Python38\;C:\Users\jkhol\Desktop\algotester\Scripts\;C:\Users\jkhol\Desktop\algotester\;C:\Users\jkhol\AppData\Local\Microsoft\WindowsApps;C:\Users\jkhol\.dotnet\tools;C:\Users\jkhol\.pyenv\pyenv-win\bin;C:\Users\jkhol\.pyenv\pyenv-win\shims;C:\Users\jkhol\AppData\Local\Microsoft\WindowsApps;C:\Users\jkhol\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jkhol\AppData\Local\Yarn\bin;C:\Program Files\heroku\bin;C:\tools\opencv\build\include;C:\tools\opencv\build\x64\vc15\bin;&quot;;C:\OpenCV\opencv\build\x64\vc15\bin;&quot;;C:\Users\jkhol\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\bin;;."/><property name="sbt.version" value="1.5.8"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.0"/><property name="swoval.tmpdir" value="C:\Users\jkhol\.sbt\1.0"/><property name="user.home" value="C:\Users\jkhol"/><property name="user.timezone" value="Europe/Helsinki"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="idea.installation.dir" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="C:\Users\jkhol\AppData\Roaming\JetBrains\IdeaIC2021.3\plugins\Scala\launcher\sbt-launch.jar"/><property name="user.name" value="jkhol"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="C:\Users\jkhol\AppData\Roaming\JetBrains\IdeaIC2021.3\plugins\Scala\launcher\sbt-launch.jar early(addPluginSbtFile=&quot;&quot;&quot;C:\Users\jkhol\AppData\Local\Temp\idea.sbt&quot;&quot;&quot;) ; set ideaPort in Global := 49262 ; idea-shell"/><property name="java.home" value="C:\Users\jkhol\.jdks\corretto-1.8.0_252\jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_252"/><property name="java.ext.dirs" value="C:\Users\jkhol\.jdks\corretto-1.8.0_252\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/><property name="sun.boot.class.path" value="C:\Users\jkhol\.jdks\corretto-1.8.0_252\jre\lib\resources.jar;C:\Users\jkhol\.jdks\corretto-1.8.0_252\jre\lib\rt.jar;C:\Users\jkhol\.jdks\corretto-1.8.0_252\jre\lib\sunrsasign.jar;C:\Users\jkhol\.jdks\corretto-1.8.0_252\jre\lib\jsse.jar;C:\Users\jkhol\.jdks\corretto-1.8.0_252\jre\lib\jce.jar;C:\Users\jkhol\.jdks\corretto-1.8.0_252\jre\lib\charsets.jar;C:\Users\jkhol\.jdks\corretto-1.8.0_252\jre\lib\jfr.jar;C:\Users\jkhol\.jdks\corretto-1.8.0_252\jre\classes"/><property name="java.vendor" value="Amazon.com Inc."/><property name="sun.stderr.encoding" value="cp866"/><property name="file.separator" value="\"/><property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/><property name="sbt.supershell" value="false"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.stdout.encoding" value="cp866"/><property name="sun.desktop" value="windows"/><property name="sun.cpu.isalist" value="amd64"/>
+    </properties>
+          <testcase classname="lab1.BalanceSpec" name="'(a (0? b) max (/ 2 z))' balance" time="0.066">
+                      
+                    </testcase><testcase classname="lab1.BalanceSpec" name="'Bla bla (bla ...' balance" time="0.002">
+                      
+                    </testcase><testcase classname="lab1.BalanceSpec" name="'())(' no balance" time="0.096">
+                      <failure message="false was not equal to true" type="org.scalatest.exceptions.TestFailedException">org.scalatest.exceptions.TestFailedException: false was not equal to true
+	at org.scalatest.matchers.MatchersHelper$.indicateFailure(MatchersHelper.scala:339)
+	at org.scalatest.matchers.should.Matchers$AnyShouldWrapper.shouldBe(Matchers.scala:6982)
+	at lab1.BalanceSpec.$anonfun$new$3(BalanceSpec.scala:19)
+	at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:20)
+	at org.scalatest.freespec.AnyFreeSpecLike$$anon$1.apply(AnyFreeSpecLike.scala:406)
+	at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+	at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)
+	at org.scalatest.freespec.AnyFreeSpec.withFixture(AnyFreeSpec.scala:1739)
+	at org.scalatest.freespec.AnyFreeSpecLike.invokeWithFixture$1(AnyFreeSpecLike.scala:404)
+	at org.scalatest.freespec.AnyFreeSpecLike.$anonfun$runTest$1(AnyFreeSpecLike.scala:416)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)
+	at org.scalatest.freespec.AnyFreeSpecLike.runTest(AnyFreeSpecLike.scala:416)
+	at org.scalatest.freespec.AnyFreeSpecLike.runTest$(AnyFreeSpecLike.scala:398)
+	at org.scalatest.freespec.AnyFreeSpec.runTest(AnyFreeSpec.scala:1739)
+	at org.scalatest.freespec.AnyFreeSpecLike.$anonfun$runTests$1(AnyFreeSpecLike.scala:475)
+	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:413)
+	at scala.collection.immutable.List.foreach(List.scala:305)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:396)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:475)
+	at org.scalatest.freespec.AnyFreeSpecLike.runTests(AnyFreeSpecLike.scala:475)
+	at org.scalatest.freespec.AnyFreeSpecLike.runTests$(AnyFreeSpecLike.scala:474)
+	at org.scalatest.freespec.AnyFreeSpec.runTests(AnyFreeSpec.scala:1739)
+	at org.scalatest.Suite.run(Suite.scala:1112)
+	at org.scalatest.Suite.run$(Suite.scala:1094)
+	at org.scalatest.freespec.AnyFreeSpec.org$scalatest$freespec$AnyFreeSpecLike$$super$run(AnyFreeSpec.scala:1739)
+	at org.scalatest.freespec.AnyFreeSpecLike.$anonfun$run$1(AnyFreeSpecLike.scala:519)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:535)
+	at org.scalatest.freespec.AnyFreeSpecLike.run(AnyFreeSpecLike.scala:519)
+	at org.scalatest.freespec.AnyFreeSpecLike.run$(AnyFreeSpecLike.scala:518)
+	at org.scalatest.freespec.AnyFreeSpec.run(AnyFreeSpec.scala:1739)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:318)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:513)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:140)
+	at sbt.TestRunner.run(TestFramework.scala:155)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:318)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:278)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:318)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:318)
+	at sbt.TestFunction.apply(TestFramework.scala:330)
+	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:435)
+	at sbt.std.Transform$$anon$3.$anonfun$apply$2(Transform.scala:46)
+	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+	at sbt.Execute.work(Execute.scala:291)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>
